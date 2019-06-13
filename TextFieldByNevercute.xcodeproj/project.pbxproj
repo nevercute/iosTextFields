@@ -12,6 +12,9 @@
 		574D3DFF22A01E16003A92A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574D3DFD22A01E16003A92A3 /* Main.storyboard */; };
 		574D3E0122A01E19003A92A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574D3E0022A01E19003A92A3 /* Assets.xcassets */; };
 		574D3E0422A01E19003A92A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574D3E0222A01E19003A92A3 /* LaunchScreen.storyboard */; };
+		574D3E0D22A01E4E003A92A3 /* NumbersTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574D3E0C22A01E4E003A92A3 /* NumbersTextFieldDelegate.swift */; };
+		574D3E0F22A01E68003A92A3 /* CashTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574D3E0E22A01E68003A92A3 /* CashTextFieldDelegate.swift */; };
+		574D3E1122A01E87003A92A3 /* SwitchableTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574D3E1022A01E87003A92A3 /* SwitchableTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		574D3E0022A01E19003A92A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		574D3E0322A01E19003A92A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		574D3E0522A01E19003A92A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		574D3E0C22A01E4E003A92A3 /* NumbersTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersTextFieldDelegate.swift; sourceTree = "<group>"; };
+		574D3E0E22A01E68003A92A3 /* CashTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashTextFieldDelegate.swift; sourceTree = "<group>"; };
+		574D3E1022A01E87003A92A3 /* SwitchableTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchableTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 		574D3DF822A01E16003A92A3 /* TextFieldByNevercute */ = {
 			isa = PBXGroup;
 			children = (
+				574D3E0B22A01E2C003A92A3 /* delegate */,
 				574D3DF922A01E16003A92A3 /* AppDelegate.swift */,
 				574D3DFB22A01E16003A92A3 /* ViewController.swift */,
 				574D3DFD22A01E16003A92A3 /* Main.storyboard */,
@@ -62,6 +69,16 @@
 				574D3E0522A01E19003A92A3 /* Info.plist */,
 			);
 			path = TextFieldByNevercute;
+			sourceTree = "<group>";
+		};
+		574D3E0B22A01E2C003A92A3 /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				574D3E0C22A01E4E003A92A3 /* NumbersTextFieldDelegate.swift */,
+				574D3E0E22A01E68003A92A3 /* CashTextFieldDelegate.swift */,
+				574D3E1022A01E87003A92A3 /* SwitchableTextFieldDelegate.swift */,
+			);
+			path = delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				574D3DFC22A01E16003A92A3 /* ViewController.swift in Sources */,
+				574D3E1122A01E87003A92A3 /* SwitchableTextFieldDelegate.swift in Sources */,
+				574D3E0F22A01E68003A92A3 /* CashTextFieldDelegate.swift in Sources */,
 				574D3DFA22A01E16003A92A3 /* AppDelegate.swift in Sources */,
+				574D3E0D22A01E4E003A92A3 /* NumbersTextFieldDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
